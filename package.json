@@ -1,0 +1,28 @@
+{
+  "name": "proy1",
+  "version": "1.0.0",
+  "description": "Calculadora CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbotia/proy1.git"
+  },
+  "keywords": [
+    "Calc",
+    "Suma",
+    "Resta",
+    "Multi"
+  ],
+  "author": "DB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbotia/proy1/issues"
+  },
+  "homepage": "https://github.com/dbotia/proy1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
