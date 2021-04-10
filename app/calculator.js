@@ -1,5 +1,6 @@
 'use strict';
-
+var a=0;
+var b=0;
 function add(a, b) {
 return a + b;
 }
@@ -13,7 +14,7 @@ return a * b;
 }
 
 function divide(a, b) {
-if (b === 0) {
+if (b == 0) {
 return new Error("Can't divide by zero");
 } else {
 return a / b;
