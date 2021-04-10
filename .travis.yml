@@ -1,5 +1,11 @@
 language: node_js
 node_js: 
  - "12" 
+jdk:
+  - oraclejdk8
 install: 
 - 'npm install'
+addons:
+  sonarcloud: true
+script:
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=dbotia-github -Dsonar.projectKey=proy1 -Dsonar.sources='./app' -X
