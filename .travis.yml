@@ -4,3 +4,4 @@ node_js:
 install: 
 - 'npm install'
 - 'npm -g install mocha'
+- 'npm i yargs-parser --save'
