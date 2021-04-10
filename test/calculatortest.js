@@ -3,7 +3,8 @@
 	var calculator = require("../app/calculator");
 
 	describe("Calculator - Test", function() {
-	
+    
+        
 	  describe("Testing the Operations", function() {
 
 	    it("Testing the sum operation", function() {
