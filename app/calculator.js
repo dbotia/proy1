@@ -1,23 +1,22 @@
 'use strict';
-var a=0;
-var b=0;
-function add(a, b) {
-return a + b;
+
+function add(a1, b1) {
+return a1 + b1;
 }
 
-function minus(a, b) {
-return a - b;
+function minus(a1, b1) {
+return a1 - b1;
 }
 
-function multiply(a, b) {
-return a * b;
+function multiply(a1, b1) {
+return a1 * b1;
 }
 
-function divide(a, b) {
-if (b == 0) {
+function divide(a1, b1) {
+if (b1 == 0) {
 return new Error("Can't divide by zero");
 } else {
-return a / b;
+return a1 / b1;
 }
 }
 
