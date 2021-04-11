@@ -26,6 +26,7 @@
   "homepage": "https://github.com/dbotia/proy1#readme",
   "dependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.1.0",
     "mocha": "^4.1.0",
     "readline-sync": "^1.4.10",
     "save-dev": "*"
