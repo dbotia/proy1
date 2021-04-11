@@ -1,6 +1,4 @@
 'use strict';
-var a1=0;
-var b1=0;
 
 function add(a1, b1) {
 return a1 + b1;
