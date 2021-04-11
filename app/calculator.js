@@ -20,9 +20,17 @@ return a1 / b1;
 }
 }
 
+function cero(a1,b1){
+    a1=0;
+    b1=0;
+
+
+}
+
 module.exports = {
 	  add,
 	  minus,
 	  multiply,
-	  divide
+      divide,
+      cero
 	}
